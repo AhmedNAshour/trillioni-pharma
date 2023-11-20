@@ -8884,7 +8884,7 @@ input.qty-val {
   }
   .text-display-2 {
     font-size: 64px;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
     line-height: 70px;
   }
   .pattern-white {
