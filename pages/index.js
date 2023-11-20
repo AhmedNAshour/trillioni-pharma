@@ -39,8 +39,8 @@ function Home() {
           <div className='banner-hero banner-1'>
             <div className='container'>
               <div className='row'>
-                <div className=' mt-20 col-lg-7'>
-                  <h1 className=' text-lg color-prim'>
+                <div className=' mt-30 col-lg-7'>
+                  <h1 className='color-prim'>
                     Launch your product
                     <span className='color-sec'> with a click!</span>
                   </h1>
