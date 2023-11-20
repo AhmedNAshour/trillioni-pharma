@@ -143,7 +143,7 @@ function Home() {
                     <div className='col-lg-6 col-md-12'>
                       <div className='box-optimized'>
                         <h3 className='text-heading-2'>
-                          Connecting Pharma's Future, Redefining Tomorrow
+                          Connecting Pharma Future, Redefining Tomorrow
                         </h3>
                         <p className='text-body-excerpt mt-30'>
                           Within the next few years, we aspire to be recognized
@@ -203,7 +203,7 @@ function Home() {
                           pharmaceutical companies, and businesses seamlessly.
                           By providing a platform that simplifies sourcing,
                           enhances partnerships, and promotes innovation, we aim
-                          to be the driving force behind the industry's growth
+                          to be the driving force behind the industrys growth
                           and success. Our commitment is to empower businesses,
                           contribute to the advancement of pharmaceutical
                           solutions, and become the trusted partner of choice
