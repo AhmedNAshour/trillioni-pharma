@@ -232,9 +232,8 @@ function Home() {
               <div className='col-lg-2 col-sm-1 col-12' />
               <div className='col-lg-8 col-sm-10 col-12 text-center mt-100'>
                 <h2 className='text-heading-1 color-gray-900'>
-                  Empowering All Players
-                  <br className='d-lg-block d-none' />
-                  in the Chain
+                  Empowering All Players in the Chain
+                  {/* <br className='d-lg-block d-none' /> */}
                 </h2>
                 <p className='text-body-lead-large color-gray-600 mt-20'>
                   Seamless Solutions for Manufacturers, Distributors, and Pharma
@@ -244,7 +243,6 @@ function Home() {
               <div className='col-lg-2 col-sm-1 col-12' />
             </div>
           </div>
-
           <div className='container mt-70'>
             <div className='row'>
               <div className='col-lg-4 col-sm-12'>
@@ -272,7 +270,6 @@ function Home() {
                   </div>
                 </div>
               </div>
-
               <div className='col-lg-4 col-sm-12 '>
                 <div className='card-grid-1 bg-2 bg-local hover-up'>
                   <div className='grid-1-img'>
@@ -327,7 +324,6 @@ function Home() {
             </div>
           </div>
         </section>
-
         <section className='section-box'>
           <div className='container mt-120'>
             <div className='bg-2 bdrd-58 pattern-white pb-60'>
@@ -349,7 +345,6 @@ function Home() {
             </div>
           </div>
         </section>
-
         <section className='section-box mt-80'>
           <div className='container'>
             <div className='row'>
@@ -444,22 +439,18 @@ function Home() {
           <div className='container mt-100'>
             <div className='row'>
               <div className='col-lg-10 mx-auto'>
-                <div className='bg-2 box-newsletter position-relative'>
+                <div className='bg-light box-newsletter position-relative'>
                   <div className='row align-items-center'>
-                    <div className='col-lg-5 col-md-7'>
-                      <span className='text-body-capitalized color-gray-500 text-uppercase'>
-                        newsletter
-                      </span>
-                      {/* Remove the form and add the iframe */}
+                    <div className='col-lg-7 col-md-12'>
                       <iframe
                         className='iframe-newsletter'
                         title='Newsletter Subscription'
                         src='https://cdn.forms-content-1.sg-form.com/ca3d7a75-878c-11ee-b88c-46ca91b99978'
-                        width='500'
+                        width='100%'
                         height='700' // Adjust the height as needed
                       ></iframe>
                     </div>
-                    <div className='col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end'>
+                    <div className='col-lg-5 col-md-12 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end'>
                       <div className='block-chart shape-1'>
                         <img
                           src='/assets/imgs/page/homepage1/demo.png'
@@ -478,7 +469,6 @@ function Home() {
             </div>
           </div>
         </section>
-
         {modal ? (
           <section className='modal__bg' onClick={openModal}>
             <div className='modal__align'>
