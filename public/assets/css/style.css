@@ -465,11 +465,11 @@ a {
   letter-spacing: -0.5%;
 }
 
-.header-text{
+.header-text {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 80px;
-  line-height: 88px;
+  font-size: 70px;
+  /* line-height: 88px; */
 }
 
 .text-display-3 {
@@ -3092,7 +3092,7 @@ label {
 }
 
 .banner-hero {
-  padding: 60px 0px 20px 0px;
+  padding: 0px 0px 20px 0px;
   position: relative;
 }
 .banner-hero.banner-1 {
@@ -8909,7 +8909,7 @@ input.qty-val {
   }
   .banner-hero {
     max-width: 100%;
-    padding: 60px 0px 60px 0px;
+    padding: 0px 0px 60px 0px;
   }
   .banner-hero.banner-3 {
     padding-top: 50px;
