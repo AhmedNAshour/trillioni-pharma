@@ -40,7 +40,7 @@ function Home() {
             <div className='container'>
               <div className='row'>
                 <div className=' mt-20 col-lg-7'>
-                  <h1 className='text-display-2 color-prim'>
+                  <h1 className='header-text color-prim'>
                     Launch your product
                     <span className='color-sec'> with a click!</span>
                   </h1>

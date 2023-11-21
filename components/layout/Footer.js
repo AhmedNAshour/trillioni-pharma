@@ -226,10 +226,16 @@ const Footer = () => {
                   {/* <Link href='https://twitter.com' legacyBehavior>
                     <a className='icon-socials icon-twitter'></a>
                   </Link> */}
-                  <Link href='https://www.instagram.com' legacyBehavior>
+                  <Link
+                    href='https://www.instagram.com/trillionipharma/'
+                    legacyBehavior
+                  >
                     <a className='icon-socials icon-instagram'></a>
                   </Link>
-                  <Link href='https://www.linkedin.com' legacyBehavior>
+                  <Link
+                    href='https://www.linkedin.com/company/trillioni-pharma/'
+                    legacyBehavior
+                  >
                     <a className='icon-socials icon-linkedin'></a>
                   </Link>
                 </div>
