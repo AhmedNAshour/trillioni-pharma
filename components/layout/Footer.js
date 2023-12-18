@@ -1,14 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <>
-      <footer className='footer mt-50'>
-        <div className='container'>
-          <div className='footer-top'>
-            <div className='row'>
+      <footer className="footer mt-50">
+        <div className="container">
+          <div className="footer-top">
+            <div className="row">
               {/* <div className='col-md-4 col-sm-6 text-center text-md-start'>
                 <Link href='/' legacyBehavior>
                   <a>
@@ -31,37 +31,43 @@ const Footer = () => {
               </div> */}
             </div>
           </div>
-          <div className='row'>
-            <div className='col-md-4 col-sm-6 text-center text-md-start'>
-              <Link href='/' legacyBehavior>
+          <div className="row">
+            <div className="col-md-4 col-sm-6 text-center text-md-start">
+              <Link href="/" legacyBehavior>
                 <a>
                   {/* <img alt="Agon" src="/assets/imgs/template/logo.svg" /> */}
                   <Image
-                    src='/assets/imgs/template/logo.png'
-                    alt='Agon'
+                    src="/assets/imgs/template/logo.png"
+                    alt="Agon"
                     width={200}
                     height={100}
                   />
                 </a>
               </Link>
             </div>
-            <div className='col-lg-3 width-20 mb-30'>
-              <h4 className='text-heading-5'>Contact</h4>
-              <div className='mt-20 text-body-text color-gray-600 mb-20'>
+            <div className="col-lg-3 width-20 mb-30">
+              <h4 className="text-heading-5">Contact</h4>
+              <div className="mt-20 text-body-text color-gray-600 mb-20">
                 Now Bosmonti, office no. 62 Şişli, Istanbul
               </div>
-              <div className='mt-20 text-body-text color-gray-600'>
+              <div className="mt-20 text-body-text color-gray-600">
                 (90) 5013680000
               </div>
-              <div className='text-body-text color-gray-600'>
+              <div className="text-body-text color-gray-600">
                 info@trillionipharma.com
               </div>
             </div>
-            <div className='col-lg-3 width-20 mb-30'>
-              <h4 className='text-heading-5'>About Us</h4>
-              <ul className='menu-footer mt-20'>
+            <div className="col-lg-3 width-20 mb-30">
+              <h4 className="text-heading-5">About Us</h4>
+              <ul className="menu-footer mt-20">
+                <p>This agency belongs to</p>
                 <li>
-                  <Link href='/#' legacyBehavior>
+                  <Link href="https://trillioni.com/" legacyBehavior>
+                    <a>TRILLIONI GROUP DIŞ TİCARET LİMİTED SİRKETİ</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/#" legacyBehavior>
                     <a>Mission and Vision</a>
                   </Link>
                 </li>
@@ -198,10 +204,10 @@ const Footer = () => {
               </ul>
             </div> */}
           </div>
-          <div className='footer-bottom mt-20'>
-            <div className='row'>
-              <div className='col-md-6'>
-                <span className='color-gray-400 text-body-lead'>
+          <div className="footer-bottom mt-20">
+            <div className="row">
+              <div className="col-md-6">
+                <span className="color-gray-400 text-body-lead">
                   © Trillioni Pharma 2023
                 </span>
                 {/* <Link href='/page-terms' legacyBehavior>
@@ -218,8 +224,8 @@ const Footer = () => {
                   </a>
                 </Link> */}
               </div>
-              <div className='col-md-6 text-center text-lg-end text-md-end'>
-                <div className='footer-social'>
+              <div className="col-md-6 text-center text-lg-end text-md-end">
+                <div className="footer-social">
                   {/* <Link href='https://facebook.com' legacyBehavior>
                     <a className='icon-socials icon-facebook'></a>
                   </Link> */}
@@ -227,16 +233,16 @@ const Footer = () => {
                     <a className='icon-socials icon-twitter'></a>
                   </Link> */}
                   <Link
-                    href='https://www.instagram.com/trillionipharma/'
+                    href="https://www.instagram.com/trillionipharma/"
                     legacyBehavior
                   >
-                    <a className='icon-socials icon-instagram'></a>
+                    <a className="icon-socials icon-instagram"></a>
                   </Link>
                   <Link
-                    href='https://www.linkedin.com/company/trillioni-pharma/'
+                    href="https://www.linkedin.com/company/trillioni-pharma/"
                     legacyBehavior
                   >
-                    <a className='icon-socials icon-linkedin'></a>
+                    <a className="icon-socials icon-linkedin"></a>
                   </Link>
                 </div>
               </div>
